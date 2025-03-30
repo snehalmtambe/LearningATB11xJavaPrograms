@@ -1,4 +1,4 @@
-package ex_06_Increment_Decrement_Operator;
+package Task_14th_march;
 
 public class Lab_004_Max_num {
     public static void main(String[] args) {
