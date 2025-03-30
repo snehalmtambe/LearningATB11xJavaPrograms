@@ -18,6 +18,8 @@ public class Lab_006_even_odd {
             System.out.println("Enter number is odd");
         }
 
+        sc.close();
+
 
     }
 }
