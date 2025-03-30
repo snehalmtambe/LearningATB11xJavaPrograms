@@ -7,17 +7,11 @@ public class Lab_004_Max_num {
         int b = Integer.parseInt(args[1]);
         System.out.println("Vale of A is:"+a);
         System.out.println("Value of B is:"+b);
+        String result;
 
-        if(a<b)
-        {
-            System.out.println("B is larger number");
-        }
+        result = (a<b) ? "B is larger" : "a is larger";
 
-            else
-            {
-                System.out.println("A is larger number");
-            }
-
+        System.out.println("Result is :"+result);
 
     }
 }
