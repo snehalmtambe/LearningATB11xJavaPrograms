@@ -1,0 +1,24 @@
+package ex_06_Increment_Decrement_Operator;
+
+public class Lab_004_Max_num {
+    public static void main(String[] args) {
+
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        System.out.println("Vale of A is:"+a);
+        System.out.println("Value of B is:"+b);
+
+        if(a<b)
+        {
+            System.out.println("B is larger number");
+        }
+
+            else
+            {
+                System.out.println("A is larger number");
+            }
+
+
+    }
+}
+
