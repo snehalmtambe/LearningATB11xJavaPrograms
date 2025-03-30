@@ -1,8 +1,8 @@
-package ex_03Java_Operators;
+package Task_12th_march;
 
 //import static jdk.internal.foreign.abi.riscv64.RISCV64Architecture.Regs.x2;
 
-public class Task_12th_march {
+public class Task_12th_march_Cube_root {
     public static void main(String[] args) {
         System.out.println("This is the task assigned on March 12th");
 
