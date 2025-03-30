@@ -1,8 +1,8 @@
-package ex_03_Java_Operators;
+package Task_13th_March;
 
 import java.util.Scanner;
 
-public class Task_13th_march {
+public class Task_13th_march_grade {
     public static void main(String[] args) {
 
         System.out.println("Please enter your score");
