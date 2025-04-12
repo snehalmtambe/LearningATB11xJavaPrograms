@@ -7,7 +7,7 @@ public class Lab_Palindrom_ex {
         int count = name.length();
         System.out.println(count);
         String rev="";
-        char ch;
+
         for(int i=count-1; i>=0; i--)
         {
             rev =  rev + name.charAt(i);
