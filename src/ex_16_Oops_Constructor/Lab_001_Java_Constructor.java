@@ -1,4 +1,4 @@
-package ex_Oops_Constructor;
+package ex_16_Oops_Constructor;
 
 public class Lab_001_Java_Constructor {
     public static void main(String[] args) {
