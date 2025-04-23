@@ -1,6 +1,7 @@
 package List;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -31,6 +32,13 @@ public class Lab_002_LinkedList {
 
         System.out.println("----------------");
 
+        System.out.println("Printing list element using Iterator and while loop");
+
+        Iterator i2 = l1.iterator();
+        while(i2.hasNext()){
+            System.out.println(i2.next());
+        }
+
         System.out.println("To print Arraylist using for each");
         for(Object o:l1){
             System.out.println(o.toString());
@@ -43,6 +51,16 @@ public class Lab_002_LinkedList {
         l2.add("Patil");
         l2.add("9658741230");
         l2.add("Senior QA");
+
+        System.out.println("Print linked list element using Iterator and while loop");
+
+        Iterator i1 = l2.iterator();
+        while(i1.hasNext())
+        {
+            System.out.println(i1.next());
+        }
+
+        System.out.println("----------------");
 
         System.out.println("Print Linked list using for loop");
         for (int i=0; i<l2.size(); i++){
